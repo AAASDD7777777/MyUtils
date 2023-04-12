@@ -1,16 +1,18 @@
-# Compiled class file
+
+#gitignore的作用：将本文件中符合规则的文件或目录忍略提交到git仓库
+#忽略任意的class文件
 *.class
 
-# Log file
+#忽略任意的日志文件
 *.log
 
 # BlueJ files
-*.ctxt
+*.Ctxt
 
-# Mobile Tools for Java (J2ME)
+Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Package Files #
+#忽略常见的包文件
 *.jar
 *.war
 *.nar
@@ -21,3 +23,16 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+#忽略IDEA配置
+.idea/
+*.iml
+
+#忽略idea中项目编译后的目录
+out/
+
+#忽略maven项目编译后的产物
+target/
+
+#忽略前端项目下载的依赖
+node modules/
