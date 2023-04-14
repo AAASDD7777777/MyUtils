@@ -1,3 +1,6 @@
+/**
+ * 插入排序
+ */
 public class InsertionSort {
     public static void insertionSort(int[] arr) {
         int len = arr.length; // 数组的长度
