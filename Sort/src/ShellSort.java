@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * 希尔排序
  */
@@ -23,8 +25,6 @@ public class ShellSort {
     public static void main(String[] args) {
         int[] nums = {3,2,6,7,9,8};
         shellSort(nums);
-        for (int a:nums) {
-            System.out.println(a);
-        }
+        System.out.println(Arrays.toString(nums));
     }
 }

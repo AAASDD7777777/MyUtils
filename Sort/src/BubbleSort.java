@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * 冒泡排序
  */
@@ -13,10 +15,6 @@ public class BubbleSort {
                 }
             }
         }
-
-        for (int a:nums) {
-            System.out.println(a);
-        }
-
+        System.out.println(Arrays.toString(nums));
     }
 }

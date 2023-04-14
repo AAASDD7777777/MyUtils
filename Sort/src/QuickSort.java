@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * 快速排序
  */
@@ -51,9 +53,7 @@ public class QuickSort {
     public static void main(String[] args) {
         int[] nums = {3,2,6,7,9,8};
         quickSort(nums,0, nums.length-1);
-        for (int a:nums) {
-            System.out.println(a);
-        }
+        System.out.println(Arrays.toString(nums));
     }
 
 }

@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * 选择排序
  */
@@ -25,8 +27,6 @@ public class SelectSort {
             }
         }
 
-        for (int a:nums) {
-            System.out.println(a);
-        }
+        System.out.println(Arrays.toString(nums));
     }
 }
